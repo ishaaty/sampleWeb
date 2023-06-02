@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="eventArchive.html">Sample Event Archive</a>
+    </div>
+    <h1 style="text-align: center">Projects</h1>
+    <h2>Sample Project:</h2>
+    <canvas height = "800" width = "800"></canvas>
+    <div class="directions">
+        <div class="direct"><p>Directions:</p></div>
+        <div class="direct"><p>Click - Color a pixel</p></div>
+        <div class="direct"><p>Click & Drag - Color multiple pixels</p></div>    
+        <div class="direct"><p>Double Click - Reset pixel</p></div>
+        <div class="direct"><p>Buttons - Change color (current color displayed below)</p></div>
+    </div>
+    <p id = "currentColor">Current Color: Black</p>
+    <div class="container">
+        <div><button class = "colorBtn" data-key = "red" style = "background-color: red;">Red</button></div>
+        <div><button class = "colorBtn" data-key = "orangered" style = "background-color: orangered;">Orange-red</button></div>
+        <div><button class = "colorBtn" data-key = "orange" style = "background-color: orange;">Orange</button></div>
+        <div><button class = "colorBtn" data-key = "yellow" style = "background-color: yellow;">Yellow</button></div>
+        <div><button class = "colorBtn" data-key = "yellowgreen" style = "background-color: yellowgreen;">Yellow-green</button></div>
+        <div><button class = "colorBtn" data-key = "green" style = "background-color: green;">Green</button></div>
+        <div><button class = "colorBtn" data-key = "rgb(66, 175, 212)" style = "background-color: rgb(66, 175, 212);">Light-blue</button></div>
+        <div><button class = "colorBtn" data-key = "rgb(32, 32, 205)" style = "background-color: rgb(32, 32, 205);">Blue</button></div>
+        <div><button class = "colorBtn" data-key = "blueviolet" style = "background-color: blueviolet;">Blue-violet</button></div>
+        <div><button class = "colorBtn" data-key = "purple" style = "background-color: purple;">Purple</button></div>
+        <div><button class = "colorBtn" data-key = "rgb(238, 89, 114)" style = "background-color: rgb(238, 89, 114);">Pink</button></div>
+        <div><button class = "colorBtn" data-key = "grey" style = "background-color: grey;">Grey</button></div>
+        <div><button class = "colorBtn" data-key = "brown" style = "background-color: brown;">Brown</button></div>
+        <div><button class = "colorBtn" data-key = "whitesmoke" style = "background-color: whitesmoke;">White-smoke</button></div>
+        <div><button id = "black" class = "colorBtn" data-key = "black" style = "background-color: black;">Black</button></div>
+        <div><button id="clear" style = "background-color: rgb(228, 178, 161)">Clear Canvas</button></div>
+    </div>
+
+    <div>
+        <a href="https://ishaaty.github.io/ColoringPg/" target="_blank"><button id="github">Full project (Made with Julia Thompson)</button></a>
+    </div>
+    <div>
+        <a href="https://github.com/ishaaty" target="_blank"><button id="github">My other CS projects!</button></a>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html>
